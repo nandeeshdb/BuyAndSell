@@ -15,3 +15,7 @@ app.listen(3000,()=>{
     console.log("app is running in server 3000")
     console.log("app is running in server 3000");
 });
+
+app.get("/test",(req,res)=>{
+    res.send("hello world");
+});
